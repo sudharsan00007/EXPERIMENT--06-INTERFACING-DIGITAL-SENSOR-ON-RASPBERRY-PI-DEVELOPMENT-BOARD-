@@ -78,10 +78,7 @@ open thonny python and writhe the python script as shown below
 
 
 ### PYTHON SCRIPT 
- 
-`
-
-
+ ```
 import time
 import board
 import adafruit_dht
@@ -104,6 +101,7 @@ while True:
         sensor.exit()
         raise error
     time.sleep(2.0)`
+```
 
 
 
